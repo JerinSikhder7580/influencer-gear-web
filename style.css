@@ -219,3 +219,14 @@ section{
     display: flex;
     align-items: center;
 }
+
+/* footer */
+
+
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 50px 590px;
+    
+}
