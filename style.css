@@ -14,6 +14,7 @@ header{
 
 section{
     width: 1110px;
+    padding: 0 165px;
 }
 
 /* header */
@@ -87,10 +88,30 @@ section{
 
 .banner-img img{
     margin-top: 35px;
+    
 }
 
 .banner-img{
     background-image: url(./images/Circle\ design.svg);
     width: 475px;
     height: 475px;
+}
+
+
+/* logos */
+
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 40px;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 60px;
+    border:1px solid rgba(192, 204, 218, 1);
+    border-left: none;
+    border-right: none;
+    margin-bottom: 100px;
 }
